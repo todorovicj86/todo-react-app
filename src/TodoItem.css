@@ -1,0 +1,27 @@
+
+.TodoItem-container {
+    display: inline-block;
+    padding: 0.5rem 0;
+    text-align: left;
+    width: 50%;
+}
+
+.TodoItem .TodoItem-container:last-child{
+    text-align: right;
+}
+
+.TodoItem-container input[type="checkbox"]{
+    margin-right: 10px;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.TodoItem-container input[type="text"]{
+    padding: 0.35rem;
+    margin: 0;
+}
+
+.TodoItem-container button {
+    padding: 0.5rem;
+}
+

@@ -1,0 +1,88 @@
+.TodoList {
+    background-color: #57bc90;
+    -webkit-box-shadow: -15px 14px 14px rgba(127, 127, 127, 0.75);
+    -moz-box-shadow: -15px 14px 14px rgba(127, 127, 127, 0.75);
+    box-shadow: -15px 14px 14px rgba(127, 127, 127, 0.75);
+    border-radius: 10px;
+    color: white;
+    margin: 100px auto;
+    padding: 1rem 0;
+    text-align: center;
+    width: 400px;
+}
+
+.TodoList ul {
+    margin: 2rem 0;
+    padding: 0;
+    width: 100%;
+}
+
+.TodoList ul li {
+    /* height: 4em; */
+    background-color: #61ccad;
+    margin-bottom: 8px;
+    list-style: none;
+    padding: 0.5rem 2rem;
+}
+
+.isChecked{
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.TodoList i {
+    margin-right: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.TodoList button {
+    background-color:#57bc90;
+    border: 1px solid lightgray;
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.TodoList button:hover {
+    background-color: #61ccad;
+}
+.TodoList-form {
+    /* background-color: aqua; */
+    margin: 2rem 0;
+    padding: 0.2em 1.2rem;
+}
+
+.TodoList-form input {
+    padding: 0.7em;
+    width: calc(((100% - 20px)/12)*9);
+}
+
+.TodoList-form label {
+    display: block;
+    margin-bottom: 0.8em;
+    padding-left: 0.8rem;
+    text-align: left;
+} 
+
+.TodoList-form button {
+    margin: 0;
+    padding: 1.05em;
+}
+
+.TodoList hr {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    border: 0;
+    height: 1px;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+.TodoList h1 {
+    margin-bottom: 0.2em;
+}
+
+.TodoList p {
+    margin-top: 0.6rem;
+}
